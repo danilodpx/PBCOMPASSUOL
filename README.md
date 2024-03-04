@@ -5,7 +5,7 @@
 ###
 
 <p align="justify">Meu nome é Danilo, sou do litoral do PI (Parnaíba) e atualmente resido em Brasília.</p>
-<p align="justify">Estou cursando o último período de Analise e Desenvolvimento de Sistemas na Faculdade de Tecnologia e Inovação Senac-DF. Sou apaixonado por análises de dados,  machine learning e deep learning.</p>
+<p align="justify">Estou cursando o último período de Análise e Desenvolvimento de Sistemas na Faculdade de Tecnologia e Inovação Senac-DF. Sou apaixonado por análises de dados,  machine learning e deep learning.</p>
 
 <h2 align="left">Sobre mim</h2>
 
