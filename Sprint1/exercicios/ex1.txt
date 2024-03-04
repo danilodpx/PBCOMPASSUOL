@@ -1,0 +1,65 @@
+#!/bin/bash
+
+# Cria 'backup' 'vendas' 'ecommerce'
+mkdir -p /mnt/c/Users/danil/OneDrive/documentos/COMPASSUOL/SPRINT01/Desafio_Sprint1/ecommerce/vendas/backup
+
+# Copia 'dados_de_vendas.csv' de 'ecommerce' para 'vendas'
+cp /mnt/c/Users/danil/OneDrive/documentos/COMPASSUOL/SPRINT01/Desafio_Sprint1/ecommerce/dados_de_vendas.csv \
+   /mnt/c/Users/danil/OneDrive/documentos/COMPASSUOL/SPRINT01/Desafio_Sprint1/ecommerce/vendas/
+
+# Formato data
+current_date=$(date "+%Y%m%d")
+
+
+iteration=$((($(date "+%M") - 1) % 3 + 1))
+
+# Formule o nome do arquivo de backup com a data atual e a iteração
+backup_file="dados-${current_date}-${iteration}.csv"
+
+# copia 'dados_de_vendas.csv' para 'backup'novo nome
+cp /mnt/c/Users/danil/OneDrive/documentos/COMPASSUOL/SPRINT01/Desafio_Sprint1/ecommerce/dados_de_vendas.csv \
+    /mnt/c/Users/danil/OneDrive/documentos/COMPASSUOL/SPRINT01/Desafio_Sprint1/ecommerce/vendas/backup/${backup_file}
+
+# Print a message indicating successful backup
+echo "Backup completo. Backup file: ${backup_file}"
+
+
+cd /mnt/c/Users/danil/OneDrive/documentos/COMPASSUOL/SPRINT01/Desafio_Sprint1/ecommerce/vendas/backup
+
+# Renomear
+new_backup_file="backup-${backup_file}"
+mv ${backup_file} ${new_backup_file}
+
+# Print a message indicating successful renaming
+echo "Arquivos backup renomeados: ${new_backup_file}"
+
+# Create a new file 'relatorio.txt' in the 'backup' directory
+echo "Data do sistema operacional: $(date "+%Y/%m/%d %H:%M")" > relatorio-${iteration}.txt
+echo "Data do primeiro registro de venda: $(awk -F, 'NR==2 {print $5}' ${new_backup_file})" >> relatorio-${iteration}.txt
+echo "Data do último registro de venda: $(awk -F, 'END {print $5}' ${new_backup_file})" >> relatorio-${iteration}.txt
+echo "Quantidade total de itens diferentes vendidos: $(awk -F, '{print $2}' ${new_backup_file} | sort -u | wc -l)" >> relatorio-${iteration}.txt
+echo -e "\nPrimeiras 10 linhas do arquivo ${new_backup_file}:" >> relatorio-${iteration}.txt
+head ${new_backup_file} | awk 'NR <= 10' >> relatorio-${iteration}.txt
+
+
+echo "Relatorio-${iteration}.txt criado."
+
+# ZIP
+zip -q backup-${current_date}-${iteration}.zip ${new_backup_file}
+
+# Print a message indicating successful compression
+echo "Backup zipado: backup-${current_date}-${iteration}.zip"
+
+
+rm ${new_backup_file}
+
+
+echo "CSV removido : ${new_backup_file}"
+
+cd -
+
+# Remove 'dados_de_vendas.csv'de 'vendas'
+rm /mnt/c/Users/danil/OneDrive/documentos/COMPASSUOL/SPRINT01/Desafio_Sprint1/ecommerce/vendas/dados_de_vendas.csv
+
+
+echo "'dados_de_vendas.csv' removido."
