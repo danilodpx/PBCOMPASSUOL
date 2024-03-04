@@ -3,15 +3,15 @@
 <details>
 <summary>💾 Menu Sprints</summary>
 
-- [Sprint 1](Sprint1/README.md)
-- [Sprint 2](Sprint2/README.md)
-- [Sprint 3](Sprint3/README.md)
-- [Sprint 4](Sprint4/README.md)
-- [Sprint 5](Sprint5/README.md)
-- [Sprint 6](Sprint6/README.md)
-- [Sprint 7](Sprint7/README.md)
-- [Sprint 8](Sprint8/README.md)
-- [Sprint 9](Sprint9/README.md)
+- [Sprint 1](../Sprint1/README.md)
+- [Sprint 2](../Sprint2/README.md)
+- [Sprint 3](../Sprint3/README.md)
+- [Sprint 4](../Sprint4/README.md)
+- [Sprint 5](../Sprint5/README.md)
+- [Sprint 6](../Sprint6/README.md)
+- [Sprint 7](../Sprint7/README.md)
+- [Sprint 8](../Sprint8/README.md)
+- [Sprint 9](../Sprint9/README.md)
 </details>
 
 Neste arquivo você irá apresentar suas entregas da Sprint corrente. Observe que existem 4 diretórios no exemplo: **exercícios**, **certificados** e **evidências**.
