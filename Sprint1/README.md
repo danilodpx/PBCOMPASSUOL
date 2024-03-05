@@ -69,6 +69,16 @@ Execução nano consolidador_de_processamento.sh
 Criação dos diretório e arquivos
 ```
 ![diretório e arquivos](evidencias/pastabackup.png)
+> [!NOTE]
+> O comando crontab é de fácil compreenção de sua lógica e auxilia na automação de tarefas por agendamento.
+
+> [!IMPORTANT]
+> Os comandos devem ser revistos para execução correta.
+> Aprender os comandos para tratamento de dados (organizar, flitrar e alterar).
+> Verificar o motivo da contagem das linhas incluir os indentificadores de coluna (id,produto,quantidade,preço,data).
+
+> [!TIP]
+> Refazer o código corretamente, implementando melhorias e eficiência.
 
 
 # Certificados
