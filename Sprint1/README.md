@@ -17,7 +17,7 @@
 # Desafio da Sprint 01
 - Primeiro contato com a linguagem markdown.
 ```
-  O markdown é bem similar ao HTML, podendo fazer no texto marcações importantes, inserção de imagnes e links de forma simples.
+O markdown é bem similar ao HTML, podendo fazer no texto marcações importantes, inserção de imagnes e links de forma simples.
 ```
 - Criação de uma aprensentação no readme.
  ```
