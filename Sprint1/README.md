@@ -14,13 +14,22 @@
 - [Sprint 10](../Sprint10/README.md)
 </details>
 
-Neste arquivo você irá apresentar suas entregas da Sprint corrente. Observe que existem 4 diretórios no exemplo: **exercícios**, **certificados** e **evidências**.
-
- - O diretório **exercícios** corresponde ao local onde você irá adicionar o código-fonte das atividades de codificação da Sprint, quando houver.
- - O diretório **evidências** você pode utilizar para adicionar imagens demonstrando a execução/resultados de atividades, quando necessário.
- - O diretório **certificados** é o local onde você irá armazenar os certificados dos cursos solicitados durante a sprint. O nome de cada certificado de corresponder ao título do curso.
-
-Utilize o arquivo README.md da Sprint para organizar todas as suas entregas. Faça referência aos arquivos de código-fonte. Evite colocar código diretamente no Markdown pois dificulta nossa avaliação.
+# Desafio da Sprint 01
+- Primeiro contato com a linguagem markdown.
+```
+  O markdown é bem similar ao HTML, podendo fazer no texto marcações importantes, inserção de imagnes e links de forma simples.
+```
+- Criação de uma aprensentação no readme.
+ ```
+A criação de um perfil no readme é bem simples, podemos mesclar com comandos em html para uma persanalização mais sofisticada.
+```
+- Primeiro contato com linux
+```
+A lógica de progrmação em ambiente linux é estruturada e a utilização do terminal WLS no WINDOWS facilíta sua utilização sem
+ter que utilizar vitural box e virtual machine, os quais utilização muito recurso de hardware.
+```
+> [!NOTE]
+> Foi necessário estudar por conteúdo adicional para resolução do desafio da sprint 01.
 
 
 # Exercícios
@@ -39,11 +48,27 @@ Utilize o arquivo README.md da Sprint para organizar todas as suas entregas. Fa�
 # Evidências
 
 
-Ao executar o código do exercício ... observei que ... conforme podemos ver na imagem a seguir:
+- Print dos comandos:
 
+```
+Execução processamento_de_vendas.sh
+```
+![processamento_de_vendas](evidencias/processamento_de_vendas.png)
 
-![Evidencia 1](evidencias/processamento_de_vendas.png)
+```
+Execução nano processamento_de_vendas.sh
+```
+![processamento_de_vendasnano](evidencias/processamento_de_vendasnano.png)
 
+```
+Execução nano consolidador_de_processamento.sh
+```
+![consolidador_de_processamento](evidencias/consolidador_de_processamento.png)
+
+```
+Criação dos diretório e arquivos
+```
+![diretório e arquivos](evidencias/pastabackup.png)
 
 
 # Certificados
