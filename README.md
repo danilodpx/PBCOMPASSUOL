@@ -9,7 +9,7 @@
 
 <h2 align="left">Sobre mim</h2>
 
-<p align="left">✨ Sou graduado em Educação Física e Pedagogia, com pós em Docência no ensino superior.<br>📚 Atualmente estou em transição de carreira para área de TI.<br>🎯 Tenho como metas MBA em análize de dados, especializações em nuvem e machine learning.<br>🎲 Gosto de arranhar um pouco no violão, ler contos de suspense e filme cult com pipoca.</p>
+<p align="left">✨ Sou graduado em Educação Física e Pedagogia, com pós em Docência no ensino superior.<br>📚 Atualmente estou em transição de carreira para área de TI.<br>🎯 Tenho como metas MBA em análise de dados, especializações em nuvem e machine learning.<br>🎲 Gosto de arranhar um pouco no violão, ler contos de suspense e filme cult com pipoca.</p>
 
 ###
 
